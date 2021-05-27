@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <title>Github</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <nav>
+        <div class="mobile-menu-btn">
+            <img src="./icons/icons8-menu-24.png" alt="mobile">
+        </div>
+
+        <div class="nav-left">
+            <a class="nav-link" href="https://github.com/">
+                <img src="./icons/github-logo.svg" width="32" height="32" alt="image" />
+              </a>
+
+              <div class="nav-left__items">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search or jump to...">
+                    <img src="./icons/input-icon.svg" width="32" height="32" alt="image" />
+                </div>
+
+                <ul class="nav-items__links">
+                    <li>Pull requests</li>
+                    <li>Issues</li>
+                    <li>Marketplace</li>
+                    <li>Explore</li>
+                  </ul>
+              </div>
+        </div>
+
+        <div class="nav-right">
+                <div class="nav-icons-group">
+                    <img src="./icons/icons8-notification-24.png" width="22" height="22" alt="notification-bell" />
+                    <span class="not-badge"></span>
+                </div>
+                <div class="nav-icons-group plus-icon">
+                    <img src="./icons/icons8-plus-24.png" width="18" height="18" alt="plus-icon" />
+                    <img src="./icons/icons8-sort-down-24.png" width="13" height="13" alt="caret-icon" />
+                  </div>
+                  <div class="nav-icons-group avatar-nav">
+                    <img src="./icons/avatar.svg" alt="small-rounded-user-avatar" width="20" height="20" id="avatar-small-nav" />
+                    <img src="./icons/icons8-sort-down-24.png" width="13" height="13" alt="caret-icon" />
+                  </div>
+         
+        </div>
+    </nav>
+        <!-- END OF HEADER -->
+
+        <!-- SUB-NAV BIG SCREEN -->
+        <div class="sub-nav__full-screen" id="sub-nav__full-screen">
+            <div class="sub-nav__user-details" id="sub-nav__user-details">
+                <img src="./icons/avatar.svg" alt="small-rounded-user-avatar" width="32" height="32" id="avatar-small" />
+                <small id="user-name__nav">Jvstblvck</small>
+            </div>
+
+            <ul> 
+                <li><img class="octicon octicon-repo UnderlineNav-octicon hide-sm svg" src="./icons/overview-icon.svg" alt="image" /> Overview</li>
+
+                <li class="active">
+                    <img class="octicon octicon-repo UnderlineNav-octicon hide-sm svg" src="./icons/repository-icon.svg" alt="image" />
+                    Repositories
+                    <span class="badge">31</span>
+                  </li>
+                  <li>
+                    <img class="octicon octicon-repo UnderlineNav-octicon hide-sm svg" src="./icons/project-icon.svg" alt="image" />
+                    Projects
+                    <span class="badge">1</span>
+                  </li>
+                  <li>
+                    <img class="octicon octicon-repo UnderlineNav-octicon hide-sm svg" src="./icons/package-icon.svg" alt="image" />
+                    Packages
+                  </li>
+            </ul>
+            </div>
+        <!-- END OF SUB-NAV BIG SCREEN -->
+
+        <!-- USER-DETAILS && SUB-NAV SMALL SCREEN -->
+            <div class="container">
+                <div class="user-profile-container">
+                    <div class="user-profile">
+                        <div class="user-avatar-container">
+                            <img src="icons/avatar.svg" alt="user-profile" id="avatar-big" />
+                            <span class="user-avatar-badge">
+                              <span role="img" aria-label="focusing-icon">🎯</span>
+                            </span>
+                          </div>
+
+                          <div class="user-details__name">
+                            <h1 id="user-full-name">Bruce Wayne</h1>
+                            <span id="user-name__user-details">Jvstblvck</span>
+                          </div>
+
+                          <span class="user-avatar-badge__small-screen">
+                            <small><b>Unfollow</b></small>
+                          </span>
+                          <div class="user-details__bio" id="bio">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aut incidunt consequuntur.</div>
+                    </div>
+                </div>
+
+                <!-- SUB-NAV SMALL SCREEN -->
+                <div class="sub-nav__small-screen" id="sub-nav__small-screen">
+                    <ul> 
+                        <li><img class="octicon octicon-repo UnderlineNav-octicon hide-sm svg" src="./icons/overview-icon.svg" alt="image" /> Overview</li>
+        
+                        <li class="active">
+                            <img class="octicon octicon-repo UnderlineNav-octicon hide-sm svg" src="./icons/repository-icon.svg" alt="image" />
+                            Repositories
+                            <span class="badge">31</span>
+                          </li>
+                          <li>
+                            <img class="octicon octicon-repo UnderlineNav-octicon hide-sm svg" src="./icons/project-icon.svg" alt="image" />
+                            Projects
+                            <span class="badge">1</span>
+                          </li>
+                          <li>
+                            <img class="octicon octicon-repo UnderlineNav-octicon hide-sm svg" src="./icons/package-icon.svg" alt="image" />
+                            Packages
+                          </li>
+                    </ul>
+                </div>
+                <!-- END OF SUB-NAV SMALL SCREEN -->
+                <div class="repositories-container" id="repositories-container">
+                  <input type="text" placeholder="Find a repository..." />
+                  <hr />
+                  <div>
+                    <small> <b>20</b> results for <b>public</b> repositories </small>
+                  </div>
+                  <hr />
+                </div>
+            </div>
+        <!-- END OF USER-DETAILS && SUB-NAV SMALL SCREEN -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.5/dayjs.min.js" 
+                integrity="sha512-n6mJ6AqoohFfbgx3x7N162B/zRNs5x8uvsStlHC+LCvqwKW7oiucE07Ehatg62ybx6Vo1ctaZwm/4sSRUTSIQA==" 
+                crossorigin="anonymous" 
+                referrerpolicy="no-referrer"></script>
+        
+        <script src="./script.js"></script>
+</body>
+</html>
