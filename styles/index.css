@@ -487,6 +487,7 @@ hr {
   width: 75%;
   font-size: 15px;
   color: green;
+  padding-right: 5px;
 }
 .repo-title a {
   display: inline;
@@ -516,6 +517,7 @@ hr {
   background: #fafbfc;
   outline: none;
   line-height: 20px;
+  
 }
 .repo-title button img {
   opacity: 0.8;
