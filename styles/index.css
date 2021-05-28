@@ -449,3 +449,118 @@ nav {
   }
 }
 /* END OF SUB-NAV */
+
+/* REPOSITORY CONTAINER */
+.repositories-container {
+  width: 75%;
+  height: 100%;
+  padding-left: 0.6rem;
+  padding-right: 5rem;
+}
+.repositories-container input {
+  margin-top: 1rem;
+  width: 70%;
+  padding: .6rem 1.6rem;
+  outline: none;
+  border: 1px solid #e1e4e8;
+  border-radius: 5px;
+}
+
+hr {
+  width: 100%;
+  left: 0;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 1rem;
+}
+
+.repo-container {
+  padding: .2rem 0;
+}
+
+.repo-title {
+  position: relative;
+}
+.repo-title p {
+  width: 75%;
+  font-size: 15px;
+  color: green;
+}
+.repo-title a {
+  display: inline;
+  font-size: 20px;
+  font-weight: 500;
+  color: #0366d6;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.repo-title a:hover {
+  text-decoration: underline;
+}
+.repo-title button {
+  position: absolute;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  right: 0;
+  top: 50%;
+  padding: 5px 16px;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid;
+  border-color: #1b1f2326;
+  border-radius: 6px;
+  color: #24292e;
+  background: #fafbfc;
+  outline: none;
+  line-height: 20px;
+}
+.repo-title button img {
+  opacity: 0.8;
+  margin-right: 4px;
+  margin-top: 4px;
+}
+
+.repo-details {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-left: 0;
+}
+.repo-details li {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  margin-left: 0;
+  font-size: 12px;
+}
+.repo-details li span {
+  margin-left: 3px;
+}
+.repo-details img {
+  opacity: 0.4;
+  margin-top: 4px;
+}
+
+.repo-details .language-color {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-top: -3px;
+  background-color: purple;
+}
+
+@media screen and (max-width: 952px) {
+  .repositories-container {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .repositories-container input {
+    width: 100%;
+  }
+}
+/* END OF REPOSITORY CONTAINER */

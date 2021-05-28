@@ -262,10 +262,10 @@ repositories.map((file) => {
 
   let markUp = "";
   markUp += `
-  <div className="repo-container">
-  <div className="repo__title-container">
+  <div class="repo-container">
+  <div class="repo-title">
       <a href=${file.url}>
-              <h3>${file.name}</h3>
+              ${file.name}
             </a>
       ${file.description ? `<p>${file.description}</p>` : ""}
   
@@ -278,7 +278,7 @@ repositories.map((file) => {
   <ul class="repo-details">
 
         <li class="repo-details__language-tags">
-            <span class="repo-details__language-color yellow"></span>
+            <span class="language-color"></span>
             <span class="repo-details__language">
               ${file.primaryLanguage.name}
             </span>
