@@ -28,8 +28,7 @@ const git = {
     nodes: [
       {
         name: "react-online-store",
-        description:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aut incidunt consequuntur",
+        description: "Lorem ipsum dolor, sit amet",
         url: "https://github.com/Goke-Adekanye/react-online-store",
         updatedAt: "2019-10-13T14:32:31Z",
         forkCount: 10,
@@ -42,8 +41,7 @@ const git = {
       },
       {
         name: "react-social-app",
-        description:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aut incidunt consequuntur",
+        description: "Lorem ipsum dolor, sit amet",
         url: "https://github.com/Goke-Adekanye/react-social-app",
         updatedAt: "2019-11-10T10:14:52Z",
         forkCount: 0,
@@ -56,8 +54,7 @@ const git = {
       },
       {
         name: "node-express-socialapp-backend",
-        description:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aut incidunt consequuntur",
+        description: "Lorem ipsum dolor, sit amet",
         url: "https://github.com/Goke-Adekanye/node-express-socialapp-backend",
         updatedAt: "2019-11-12T02:07:48Z",
         forkCount: 0,
@@ -70,8 +67,7 @@ const git = {
       },
       {
         name: "aws-dynamodb-tutorial",
-        description:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aut incidunt consequuntur",
+        description: "Lorem ipsum dolor, sit amet",
         url: "https://github.com/Goke-Adekanye/aws-dynamodb-tutorial",
         updatedAt: "2020-05-05T12:35:17Z",
         forkCount: 0,
@@ -84,8 +80,7 @@ const git = {
       },
       {
         name: "serverless-stack-api",
-        description:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aut incidunt consequuntur",
+        description: "Lorem ipsum dolor, sit amet",
         url: "https://github.com/Goke-Adekanye/serverless-stack-api",
         updatedAt: "2020-05-15T09:06:30Z",
         forkCount: 0,
@@ -98,8 +93,7 @@ const git = {
       },
       {
         name: "serverless-stack-client",
-        description:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aut incidunt consequuntur",
+        description: "Lorem ipsum dolor, sit amet",
         url: "https://github.com/Goke-Adekanye/serverless-stack-client",
         updatedAt: "2020-05-21T15:27:43Z",
         forkCount: 0,
@@ -112,8 +106,7 @@ const git = {
       },
       {
         name: "Research-question",
-        description:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aut incidunt consequuntur",
+        description: "Lorem ipsum dolor, sit amet",
         url: "https://github.com/Goke-Adekanye/Research-question",
         updatedAt: "2020-09-24T20:14:29Z",
         forkCount: 0,
@@ -126,8 +119,7 @@ const git = {
       },
       {
         name: "portfolio",
-        description:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aut incidunt consequuntur",
+        description: "Lorem ipsum dolor, sit amet",
         url: "https://github.com/Goke-Adekanye/portfolio",
         updatedAt: "2021-04-01T07:58:00Z",
         forkCount: 0,
@@ -140,8 +132,7 @@ const git = {
       },
       {
         name: "netfixclone",
-        description:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aut incidunt consequuntur",
+        description: "Lorem ipsum dolor, sit amet",
         url: "https://github.com/Goke-Adekanye/netfixclone",
         updatedAt: "2021-05-21T04:06:48Z",
         forkCount: 0,
@@ -154,8 +145,7 @@ const git = {
       },
       {
         name: "backend-mongoose-node",
-        description:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aut incidunt consequuntur",
+        description: "Lorem ipsum dolor, sit amet",
         url: "https://github.com/Goke-Adekanye/backend-mongoose-node",
         updatedAt: "2021-03-27T15:14:16Z",
         forkCount: 0,
@@ -196,8 +186,7 @@ const git = {
       },
       {
         name: "linkedin-desktop-uiclone",
-        description:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aut incidunt consequuntur",
+        description: "Lorem ipsum dolor, sit amet",
         url: "https://github.com/Goke-Adekanye/linkedin-desktop-uiclone",
         updatedAt: "2021-03-31T08:06:22Z",
         forkCount: 0,
@@ -210,8 +199,7 @@ const git = {
       },
       {
         name: "HaliMart",
-        description:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aut incidunt consequuntur",
+        description: "Lorem ipsum dolor, sit amet",
         url: "https://github.com/Goke-Adekanye/HaliMart",
         updatedAt: "2021-05-11T15:03:57Z",
         forkCount: 0,
@@ -224,8 +212,7 @@ const git = {
       },
       {
         name: "react-testing-cc",
-        description:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aut incidunt consequuntur",
+        description: "Lorem ipsum dolor, sit amet",
         url: "https://github.com/Goke-Adekanye/react-testing-cc",
         updatedAt: "2021-05-20T03:13:07Z",
         forkCount: 0,
@@ -238,8 +225,7 @@ const git = {
       },
       {
         name: "Mart-mongodb",
-        description:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aut incidunt consequuntur",
+        description: "Lorem ipsum dolor, sit amet",
         url: "https://github.com/Goke-Adekanye/Mart-mongodb",
         updatedAt: "2021-05-25T09:25:29Z",
         forkCount: 0,
